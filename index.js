@@ -29,7 +29,7 @@ app.get("/chats", async (req,res)=>{
 
 //New Route
 app.get("/chats/new", (req , res) => {
-    res.render("new.ejs");
+    res.render("new.ejs"); 
 })
 
 //Create Route
